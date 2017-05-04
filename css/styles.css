@@ -1,0 +1,150 @@
+/*UNIVERSALS*/
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:400,700');
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.orange-text{
+  color: orange;
+}
+
+.white-text{
+  color:#fff;
+}
+
+.lobster-text{
+  font-family: 'Lobster', cursive;
+}
+
+.railway-text{
+  font-family: 'Raleway', sans-serif;
+
+}
+/*NAVBAR*/
+.navbar-default{
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  color:#fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  border-color: rgba(0, 0, 0, 0.15);
+  color: #d34326;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*CAROUSEL*/
+#wood_background{
+  background-image: url('../img/wood-2.jpg');
+  background-position: center;
+  height: 450px;
+  background-size: cover;
+}
+
+#logo{
+  width: 250px;
+}
+
+#seating_background{
+  background-image: url('../img/restaurant-2.jpg');
+  background-position: center;
+  height: 450px;
+  background-size: cover;
+}
+
+#farm_background{
+  background-image: url('../img/farm-2.jpg');
+  background-position: center;
+  height: 450px;
+  background-size: cover;
+}
+
+
+.btn-default{
+  color: #fff;
+  background-color: #F8512F;
+  border: none;
+}
+
+.btn-default:hover{
+  background-color: #D34326;
+  color: #fff;
+}
+
+/*OUR STORY*/
+#our-story{
+  margin-top: 75px;
+}
+
+#our-story h1.lobster-text{
+  text-shadow: 1px 1px #a7a7a7;
+  font-size: 4.5em;
+}
+
+#year-text{
+  position: absolute;
+  font-size: 10em;
+  color: rgba(0, 0, 0, .07);
+  z-index: 0;
+}
+/*REVIEW*/
+#review{
+  background-image: url('../img/food_review.jpg');
+  height: 450px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#review-background{
+  background-color: rgba(0, 0, 0, .4);
+  margin-top: 163px;
+  padding: 10px 0px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#review-background h3{
+  font-size: 50px;
+}
+
+#review-background p{
+  font-size: 18px;
+}
+
+/*MENU SECTION */
+#menu-section{
+  background-image: url('../img/black_linen.png');
+  background-size: contain;
+  background-position: center;
+  height: 650px;
+}
+
+#menu-section h1{
+  font-size: 60px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu-section ul li a{
+  color: #f8512f;
+  text-transform: uppercase;
+}
+
+.nav-tabs>li.active>a:hover{
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+  border: none;
+}
+
+.food-item{
+  background-color:#fff;
+  padding: 20px;
+}
